@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  14 APR 2020 17:57
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  14 APR 2020 19:21
 entering extended mode
 **"d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
 ("d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
@@ -2073,27 +2073,27 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into
 your preamble.
  on input line 12.
 
-(pythontex-files-main/main.pytxpyg) [1
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+(pythontex-files-main/main.pytxpyg)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
 
 
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
 
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2] [3] [4] [5] 
+) [1
+
+] [2] [3] [4] [5] 
 AED: lastpage setting LastPage
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
  (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
 Package logreq Info: Writing requests to 'main.run.xml'.
