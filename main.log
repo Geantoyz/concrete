@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  14 APR 2020 19:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  17 APR 2020 14:15
 entering extended mode
 **"d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
 ("d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
@@ -2074,26 +2074,33 @@ your preamble.
  on input line 12.
 
 (pythontex-files-main/main.pytxpyg)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 
 
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-] [2] [3] [4] [5] 
+]
+Missing character: There is no с in font cmmi12!
+Missing character: There is no м in font cmmi12!
+Missing character: There is no м in font cmmi12!
+ [2] [3]
+Missing character: There is no Н in font cmmi12!
+Missing character: There is no Н in font cmmi12!
+ [4] [5] [6] [7] [8] 
 AED: lastpage setting LastPage
-[6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
  (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 297.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2101,12 +2108,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47248 strings out of 414182
- 1056667 string characters out of 2897157
- 1959284 words of memory out of 3000000
- 64075 multiletter control sequences out of 15000+200000
- 535866 words of font info for 69 fonts, out of 3000000 for 9000
+ 47251 strings out of 414182
+ 1056533 string characters out of 2897157
+ 1963284 words of memory out of 3000000
+ 64081 multiletter control sequences out of 15000+200000
+ 535842 words of font info for 66 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,11n,102p,1241b,3812s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,12n,102p,1241b,3812s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (6 pages).
+Output written on main.pdf (9 pages).
