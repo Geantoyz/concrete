@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  18 APR 2020 13:37
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  18 APR 2020 20:07
 entering extended mode
 **"d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
 ("d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
@@ -828,8 +828,8 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\svgnam.def"
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
-Package hyperref Info: Option `unicode' set `true' on input line 132.
-Package hyperref Info: Option `colorlinks' set `true' on input line 132.
+Package hyperref Info: Option `unicode' set `true' on input line 133.
+Package hyperref Info: Option `colorlinks' set `true' on input line 133.
 
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pythontex\pythonte
 x.sty"
@@ -2093,15 +2093,15 @@ Missing character: There is no м in font cmmi12!
  [2] [3]
 Missing character: There is no Н in font cmmi12!
 Missing character: There is no Н in font cmmi12!
- [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
-
+ [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] 
 AED: lastpage setting LastPage
-[15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 715.
  (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 515.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 715.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 715.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2109,12 +2109,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47252 strings out of 414182
- 1056556 string characters out of 2897157
- 1964288 words of memory out of 3000000
- 64082 multiletter control sequences out of 15000+200000
- 535842 words of font info for 66 fonts, out of 3000000 for 9000
+ 47257 strings out of 414182
+ 1056749 string characters out of 2897157
+ 1966354 words of memory out of 3000000
+ 64085 multiletter control sequences out of 15000+200000
+ 535858 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,12n,102p,1241b,3812s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (15 pages).
+Output written on main.pdf (21 pages).
