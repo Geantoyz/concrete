@@ -879,7 +879,7 @@ $$\lambda = \dfrac{6,88}{0,11} = 62,54$$
     \item Перевіряємо достатність висоти $d_1$ нижньої сходинки з умов міцності по 
     поперечній силі в перерізі $2-2$ з урахуванням роботи тільки бетону (тобто без поперечного армування):
     \begin{equation}
-        d_1\leq 2 \cdot \dfrac{P_{max} \cdot C}{f_{ctk,0,05}}
+        d_1 \geq \dfrac{P_{max} \cdot C}{f_{ctk,0,05}}
     \end{equation}
     \begin{equation}
         c=0,5 \cdot (l-a_n-2d)
@@ -890,6 +890,54 @@ $$\lambda = \dfrac{6,88}{0,11} = 62,54$$
     $$0,45 > 0,066$$
 \end{enumerate} 
 \subsection{Проектування підколонника фундаменту}
+        $1 + 2 + 3 + 4 - 7$
+     
+        $M_y^+ = 265,99\;\textit{кНм}$
+        
+        $N_{\textit{відп}} = - 719,658\;\textit{кН}$
+   
+        $Q_{\textit{відп}} = - 41,052\;\textit{кН}$
+\begin{enumerate}
+    \item Зусилля в перерізі 7–7 підколонника:
+        \begin{equation}
+            M = M_{IV} + V_{IV}H_{an} + G_{cm}e_{cm}
+        \end{equation}
+        $$M = 265,99 + 41,052 \cdot 1,1 + 21,6 \cdot 0,925 = 331,13\;\textit{кНм}$$
+        \begin{equation}
+            N = N_{IV} + G_{cm} + G_1
+        \end{equation}
+        $$N = 719,658 + 21,6 + 24,15 = 765,408\;\textit{кН}$$
+        де $G_1 = (0,84 \cdot 1,15) \cdot 2500 = 2415\;\textit{кг}$
+    \item Необхідна площа поздовжньої арматури підколонника при\\$e_0 = M / N < 0,3h_{on} = 331,13 / 765,408 = 0,433 < 0,3 \cdot 1,51 = 0,453$:
+        \begin{equation}
+            A_S = A_S^{\prime} = \dfrac{Ne - f_{cd}S_0}{f_{yd}Z_S}
+        \end{equation}
+        де $e = e_0 + 0,5a_n - a = 0,433 + 0,5 \cdot 1,55 - 0,04 = 1,168$;
+
+        $Z_S = h_n - 2a = 1550 - 2 \cdot 40 = 1470\;\textit{мм}$;
+
+        $S_0 = 0,5 \cdot (b_nh_{on}^2 - bh_{\textit{н}}Z_S) = 0,5 \cdot (0,95 \cdot 1,51^2 - 0,4 \cdot 1) = 0,79\;\textit{м}$;
+
+        $a = 30 \div 40\;\textit{мм}$.
+        $$A_S = A_S^{\prime} = \dfrac{765,408 \cdot 1,168 - 14,5 \cdot 10^3 \cdot 0,79}{365 \cdot 10^3 \cdot 1,47} = - 0,01968\;\textit{м}^2$$
+    \item Остаточно прийнятий поздовжня арматура підколонника повинна бути не менше конструктивного мінімуму:
+        \begin{equation}
+            A_S = A_S^{\prime} \geq \mu_{min} \cdot A_b = 0,001 \cdot (h_n \cdot b_n - h_{\textit{н}}b)
+        \end{equation}
+        $$A_S = A_S^{\prime} \geq 0,001 \cdot (1,55 \cdot 0,95 - 1 \cdot 0,4) = 0,0010725\;\textit{м}^2$$
+        Приймаємо $6\varnothing16A400$ $A = 12,06\;\textit{см}^2$ з кроком $175\;\textit{мм}$.
+    \item Необхідну площу поперечної арматури підколонника визначити з розрахунку міцності похилого перерізу на дію моменту за формулою залежно від $e_0$:
+    
+    При $\dfrac{h_{\textit{н}}}{6} < e_0 < \dfrac{h_{\textit{н}}}{2} = 0,16 < 0,453 < 0,5$
+        \begin{equation}
+            A_{sw} = \dfrac{M + VH_{an} - 0,7Ne_0 + G_{cm}(e_{cm} - 0,7e_0)}{f_{ywd} \sum Z_w}
+        \end{equation}
+        де $\sum Z_w = Z_1 + Z_2 + Z_3 + \ldots + Z_n = 50 + 200 + 350 + 650 + 800 + 950 + 1100 + 1250 = 5350\;\textit{мм}$
+        \begin{multline*}
+        A_{sw} = (265,99 \cdot 10^3 + 41,052 \cdot 10^3 \cdot 1,1 - 0,7 \cdot 719,658 \cdot 10^3 \times\\\times 0,453 + 21,6 \cdot (0,925 - 0,7 \cdot 0,453))/285 \cdot 10^6 \times\\\times 5,35 = 0,0000544\;\textit{м}^2
+        \end{multline*}
+        Приймаємо $4\varnothing12A400$ $A = 4,52\;\textit{см}^2$ з кроком $150\;\textit{мм}$.
+\end{enumerate} %Вставить езкіз
 
 \newpage
 \section{Проектування плити покриття}
