@@ -1,3 +1,4 @@
 {
-    "cSpell.language": ",uk"
+    "cSpell.language": ",uk",
+    "python.pythonPath": "/usr/local/anaconda3/bin/python"
 }
