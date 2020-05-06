@@ -66,7 +66,7 @@ $b_{\textit{нижнє}},\;b_{\textit{верхнє}}=400\;\textit{мм}$.
 
 
 
-1)Збір навантаження:
+Збір навантаження:
 
 %Сделать таблицу
 
@@ -942,6 +942,123 @@ $$\lambda = \dfrac{6,88}{0,11} = 62,54$$
 \newpage
 \section{Проектування плити покриття}
 \subsection{Розрахунок міцності поздовжніх ребер плити покриття за нормальними перерізами}
+Клас напруженої арматури $A800$
+
+$f_{pk} = 840\;\textit{МПа}$
+
+$f_{p0,1k} = 765\;\textit{МПа}$
+
+$E_p = 190000\;\textit{МПа}$
+
+$f_{pd} = \dfrac{f_{p0,1k}}{\gamma_s} = \dfrac{765}{1,2} = 637,5\;\textit{МПа}$
+
+Монтажна арматура $A400$
+
+$f_{yd} = 365\;\textit{МПа}$
+
+Клас бетону $25/30$
+
+$f_{cd} = 17\;\textit{МПа}$
+
+$f_{ck,prizm} = 22\;\textit{МПа}$
+
+$\epsilon_{cu3,cd} = 3\;\textit{МПа}$
+
+$E_{cm} = 32,5 \cdot 10^3\;\textit{МПа}$
+\begin{enumerate}
+    \item Визначити відношення $h_f^\prime/h$, по ньому встановити величину   (ширину полички тавра за рис. 6.1 при наявності поперечних ребер), що вводиться в розрахунок.
+        \begin{equation}
+            b_{eff} = min\begin{Bmatrix}
+                \dfrac{1}{6} \cdot l_k \\
+                \textit{При}\;h_f^\prime \geq 0,1 \cdot h : 0,5 \cdot B_K - b
+            \end{Bmatrix}
+        \end{equation}
+        $\dfrac{h_f^\prime}{h} = \dfrac{30}{300} = 0,1$
+
+        $l_{\textit{к}} = L - 20 = 18000 - 20 = 17980\;\textit{мм}$
+
+        При $h_f^\prime \geq 0,1 \cdot h$
+        $$b_{eff} = 0,5 \cdot B_K - b = 0,5 \cdot 2,98 - 0,18 = 1,31\;\textit{м}$$
+        Де $B_K = 2,98\;\textit{м}$;
+
+        $b = 0,18\;\textit{м}$.
+        $$l_0 = l_k - 2 \cdot \dfrac{2}{3} \cdot c = 17980 - 2 \cdot \dfrac{2}{3} \cdot 120 = 17820\;\textit{мм}$$
+        $$M_{max} = \dfrac{q \cdot l_0^2}{8} = \dfrac{10,5291 \cdot 17,82^2}{8} = 417,9\;\textit{кНм}$$
+        $$V_{max} = \dfrac{q \cdot l_0}{2} = \dfrac{10,5291 \cdot 17,82}{2} = 93,8\;\textit{кН}$$
+        Де $q_p = q_1^{\textit{покр}} \cdot B = 2,0537 \cdot 3 = 6,1611\;\textit{кН/м}$;
+
+        $P_{cm} = S_m \cdot B = 1,456 \cdot 3 = 4,368\;\textit{кН/м}$;
+
+        $q = q_p + P_{cm} = 6,1611 + 4,368 = 10,5291\;\textit{кН/м}$.
+    \item Обчислюємо $\alpha_m$:
+        \begin{equation}
+            \alpha_m = \dfrac{M_{max}}{b_{eff} \cdot d^2 \cdot f_{cd}}
+        \end{equation}
+        Де $d = h - a$;
+
+        $a = 30 \div 50\;\textit{мм}$.
+        $$\alpha_m = \dfrac{M_{max}}{b_{eff} \cdot d^2f_{cd}} = \dfrac{417,9 \cdot 10^3}{1,31 \cdot 0,26^2 \cdot 17 \cdot 10^6} = 0,277 \Rightarrow 0,274$$
+        $\xi = \dfrac{x}{d} \Rightarrow x = \xi \cdot d = 0,41 \cdot 260 = 106,6\;\textit{мм}$
+
+        $\zeta = 0,836$
+    \item Попереднє напруження $\sigma_{\textit{р}}$ в робочій арматурі визначаємо з умови:
+        \begin{equation}
+            0,3f_{p0,1k} \leq \sigma_{\textit{р}} \leq 0,9f_{p0,1k}
+        \end{equation}
+        $$0,3 \cdot 765 \leq \sigma_{\textit{р}} \leq 0,9 \cdot 765$$
+        $$229,5 \leq \sigma_{\textit{р}} \leq 688,5$$
+        $$\sigma_{\textit{р}} = 600\;\textit{МПа}$$
+    \item Виконуємо перевірку $\xi \leq \xi_R$
+        \begin{equation}
+            \xi_R = \dfrac{\epsilon_{cu3.cd}}{\epsilon_{cu3.cd} - \epsilon_{so}}
+        \end{equation}
+        Де $\epsilon_{so} = \dfrac{f_{pd} + 400 - 0,9\sigma_{p}}{E_p} \cdot 1000 = \dfrac{637,5 + 400 - 0,9 \cdot 600}{190000} \cdot 1000 = 2,61$
+
+        $$\xi_R = \dfrac{3}{3 - 2,61} = 7,86$$
+        $$0,41 \leq 7,86$$
+        Умова виконується.
+    \item Визначаємо положення нейтральної вісі:
+        \begin{equation}
+            M_f = b_{eff} \cdot h_f^\prime \cdot f_{cd} \cdot (d - 0,5 \cdot h_f)
+        \end{equation}
+        $$M_f = (1,31 \cdot 0,03 \cdot 17 \cdot 10^6 \cdot (0,26 - 0,5 \cdot 0,03))/1000 = 163,60845\;\textit{кНм}$$
+        $$M_{max} \leq M_f$$
+        $$417,9 > 163,60845$$
+        Нейтральна вісь проходить у ребрі.
+    \item У двотавровому перерізі згинальний момент сприймається двома прямокутниками (в поличці на ребрі):
+        \begin{equation}
+            M_{max} = M_1 + M_2 \Rightarrow M_1 = M_{max} - M_2
+        \end{equation}
+        \begin{multline*}M_2 = f_{cd} \cdot (b_{eff} - b) \cdot h_f \cdot (d - 0,5 \cdot h_f) = 17 \cdot 10^6 \cdot (1,31 - 0,18) \cdot 0,03 \times \\ \times (0,26 - 0,5 \cdot 0,03)/1000 = 141,19\;\textit{кНм}
+        \end{multline*}
+        $$M_1 = M_{max} - M_2 = 417,9 - 141,19 = 276,71\;\textit{кНм}$$
+    \item Обчислюємо значення коефіцієнта
+        \begin{equation}
+            \alpha_{m1} = \dfrac{M_1}{f_{pd} \cdot b \cdot \zeta_1}
+        \end{equation}
+        $$\alpha_{m1} = \dfrac{276,71 \cdot 10^3}{637,5 \cdot 0,10 \cdot 0,836} = 0,0029$$
+        $\xi = \dfrac{x}{d} \Rightarrow x = \xi \cdot d = 0,01 \cdot 260 = 2,6\;\textit{мм}$
+
+        $\zeta = 0,996$
+        $$\xi \leq \xi_R$$
+        $$2,6 \leq 7,86$$
+        Умова виконується.
+    \item Визначаємо необхідну площу поздовжньої напруженої робочої арматури ребер плити:
+        \begin{equation}
+            A_{sp} = A_{sp1} + A_{sp2} = \dfrac{M_1}{f_{pd} \cdot d \cdot \zeta_1} + \dfrac{M_2}{f_{pd} \cdot (d - 0,5 \cdot h_f)}
+        \end{equation}
+        \begin{multline*}
+        A_{sp} = \dfrac{276,75 \cdot 10^3}{637,5 \cdot 10^6 \cdot 0,26 \cdot 0,836} +\\+ \dfrac{141,19 \cdot 10^3}{637,5 \cdot 10^6 \cdot (0,26 - 0,5 \cdot 0,03)} = 0,002901\;\textit{м}^2    
+        \end{multline*}
+        
+        Приймаємо $2\varnothing32A800 + 2\varnothing32A800$, $A_{sp}^{\textit{факт}} = 32,18\;\textit{см}^2$.
+    \item Обчислюємо відсоток армування для прийнятої поздовжньої напруженої арматури:
+        \begin{equation}
+            \mu = \left(\dfrac{A_{sp}^{\textit{факт}}}{A_b}\right) \cdot 100\%
+        \end{equation}
+        $$\mu = \left(\dfrac{32,18}{5400}\right) \cdot 100\% = 0,59\%$$
+        Відсоток армування для прийнятої поздовжньої напруженої арматури\\($0,3\% \leq \mu \leq 0,8\%$) входить до оптимальних значень.
+\end{enumerate}
 \subsection{Розрахунок міцності похилих перерізів поздовжніх ребер плити}
 \subsection{Розрахунок полички плити на місцевий вигин}
 \subsection{Розрахунок втрат попереднього напруження}
