@@ -654,7 +654,7 @@ $W = (\frac{0,308+0,337}{2})\cdot 6 \cdot 2,45 \cdot (0,8+0,6)\cdot 1,14 = 7,57\
 
         $\rho_1 = \dfrac{A_S}{b \cdot d} = \dfrac{4,61}{40 \cdot 36} = 0,003$
         $$V_{Rd,c} = \left[0,12 \cdot 2 \cdot \left(100 \cdot 0,003 \cdot 22 \cdot 10^6 \right)^{1/3}\right] \cdot 0,4 \cdot 0,36 = 6,48\;\textit{кН}$$
-        $$V_{ds}\nleq V_{Rd,c}$$
+        $$V_{ds} \nleqslant V_{Rd,c}$$
         Умова не виконується.
         \begin{equation}
             V_{Rd,max} = \dfrac{\alpha_{cw} \cdot b_w \cdot z \cdot v \cdot f_{cd}}{\cot\theta + \tan\theta}
@@ -1041,6 +1041,50 @@ $E_{cm} = 32,5 \cdot 10^3\;\textit{МПа}$
         Відсоток армування для прийнятої поздовжньої напруженої арматури\\($0,3\% \leq \mu \leq 0,8\%$) входить до оптимальних значень.
 \end{enumerate}
 \subsection{Розрахунок міцності похилих перерізів поздовжніх ребер плити}
+\begin{enumerate}
+    \item Визначаємо $\sigma_{cp}$:
+        \begin{equation}
+            \sigma_{cp} = \dfrac{N_{max}}{A_c} < 0,2 \cdot f_{cd}
+        \end{equation}
+        Де $N_{max} = 0,5 \cdot \sigma_p \cdot A_{cp} = 0,5 \cdot 600 \cdot 0,000509 \cdot 1000 = 152,7\;\textit{кН}$
+        $$ \sigma_{cp} = \dfrac{152,7}{0,1374} < 0,2 \cdot 17 \cdot 1000$$
+        $$ \sigma_{cp} = 1111\;\textit{кН} < 3400\;\textit{кН}$$
+    \item Визначаємо коефіцієнт $k$:
+        \begin{equation}
+            k = 1 + \sqrt{\dfrac{200}{d}} \leq 2,0
+        \end{equation}
+        $$k = 1 + \sqrt{\dfrac{200}{260}} \leq 2,0$$
+        $$k = 1,87 \leq 2,0$$
+    \item Визначаємо $V_{Rd,c}$:
+        \begin{equation}
+            V_{Rd,c} = \left[{C_{Rd,c} \cdot k \cdot \sqrt[3]{100 \cdot \rho_l \cdot f_{ck}}} + k_1 \cdot \sigma_{cp}\right] \cdot b \cdot d
+        \end{equation}
+        Де $V_{Rd,c}$ --- розрахункове значення поперечної сили, яку може сприйняти похилий переріз без армування (бетон);
+
+        $k_1$ --- коефіцієнт, $k_1 = 0,15$;
+
+        $\rho_l$ --- коефіцієнт армування перерізу поздовжньою розтягнутою арматурою;
+
+        $C_{Rd,c}$ --- $0,12\;\textit{МПа}$
+
+        $f_{ck}$ --- в \textit{МПа}
+        \begin{multline*}
+        V_{Rd,c} = \left[{0,12 \cdot 1,877 \cdot \sqrt[3]{100 \cdot 0,37 \cdot 22}} + 0,15 \cdot 1,11\right] \cdot 180 \cdot 260 =\\= 1062265\;\textit{МПа} = 106,26\;\textit{кН}
+        \end{multline*}
+    \item Перевіряємо умову $V_{max} \geq V_{Rd,c}$
+        $$30,64\;\textit{кН} \ngeqslant 106,26\;\textit{кН}$$
+        Умова не виконується, приймаємо армування конструктивно: 
+        \begin{itemize}
+            \item В зварних каркасах $d_{\textit{поп.арм.}}\geq \left\{\dfrac{d_{max}^{\textit{повзд.арм}}}{4};\;4\;\textit{мм}\right\}$ кількість стрижнів в перерізі має відповідати кількості плоских каркасів. В ребристій плиті має бути 2 каркаси. Приймаємо $8\;\textit{мм}$;
+            \item Крок стрижнів $S$ призначається кратним $50\;\textit{мм}$ і приймається:
+            \begin{itemize}
+                \item $S \leq \{0,5 \cdot h;\;150\;\textit{мм}\}$ на ділянках біля опор $(\geq 0,25 \cdot l_0)$\\
+                Приймаємо $S = 150\;\textit{мм}$, біля опор $1500\;\textit{мм}$;
+                \item $S \leq \{0,75 \cdot h;\;500\;\textit{мм}\}$ на ділянках всередині прогону $(\approx 0,5 \cdot l_0)$\\
+                Приймаємо $S = 300\;\textit{мм}$, всередині прогону $3000\;\textit{мм}$.
+            \end{itemize}
+        \end{itemize}
+\end{enumerate}
 \subsection{Розрахунок полички плити на місцевий вигин}
 \subsection{Розрахунок втрат попереднього напруження}
 \subsection{Розрахунок плити на утворення тріщин нормальних до поздовжньої осі}
