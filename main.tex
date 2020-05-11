@@ -997,8 +997,8 @@ $E_{cm} = 32,5 \cdot 10^3\;\textit{МПа}$
         Де $d = h - a$;
 
         $a = 30 \div 50\;\textit{мм}$.
-        $$\alpha_m = \dfrac{M_{max}}{b_{eff} \cdot d^2f_{cd}} = \dfrac{44,58 \cdot 10^3}{1,31 \cdot 0,26^2 \cdot 17 \cdot 10^6} = 0,029 \Rightarrow 0,031$$
-        $\xi = \dfrac{x}{d} \Rightarrow x = \xi \cdot d = 0,04 \cdot 260 = 10,4\;\textit{мм}$
+        $$\alpha_m = \dfrac{M_{max}}{b_{eff} \cdot d^2f_{cd}} = \dfrac{44,58 \cdot 10^3}{1,31 \cdot 0,26^2 \cdot 17 \cdot 10^6} = 0,029 \Longrightarrow 0,031$$
+        $\xi = \dfrac{x}{d} \Longrightarrow x = \xi \cdot d = 0,04 \cdot 260 = 10,4\;\textit{мм}$
 
         $\zeta = 0,984$
     \item Попереднє напруження $\sigma_{\textit{р}}$ в робочій арматурі визначаємо з умови:
@@ -1046,7 +1046,7 @@ $E_{cm} = 32,5 \cdot 10^3\;\textit{МПа}$
         \begin{equation}
             \sigma_{cp} = \dfrac{N_{max}}{A_c} < 0,2 \cdot f_{cd}
         \end{equation}
-        Де $N_{max} = 0,5 \cdot \sigma_p \cdot A_{cp} = 0,5 \cdot 600 \cdot 0,000509 \cdot 1000 = 152,7\;\textit{кН}$
+        Де $N_{max} = 0,5 \cdot \sigma_p \cdot A_{cp} = 0,5 \cdot 600 \cdot 0,000509 \cdot 1000 = 152,7\;\textit{кН}$.
         $$ \sigma_{cp} = \dfrac{152,7}{0,1374} < 0,2 \cdot 17 \cdot 1000$$
         $$ \sigma_{cp} = 1111\;\textit{кН} < 3400\;\textit{кН}$$
     \item Визначаємо коефіцієнт $k$:
@@ -1065,9 +1065,9 @@ $E_{cm} = 32,5 \cdot 10^3\;\textit{МПа}$
 
         $\rho_l$ --- коефіцієнт армування перерізу поздовжньою розтягнутою арматурою;
 
-        $C_{Rd,c}$ --- $0,12\;\textit{МПа}$
+        $C_{Rd,c}$ --- $0,12\;\textit{МПа}$;
 
-        $f_{ck}$ --- в \textit{МПа}
+        $f_{ck}$ --- в \textit{МПа}.
         \begin{multline*}
         V_{Rd,c} = \left[{0,12 \cdot 1,877 \cdot \sqrt[3]{100 \cdot 0,37 \cdot 22}} + 0,15 \cdot 1,11\right] \cdot 180 \cdot 260 =\\= 1062265\;\textit{МПа} = 106,26\;\textit{кН}
         \end{multline*}
@@ -1086,7 +1086,110 @@ $E_{cm} = 32,5 \cdot 10^3\;\textit{МПа}$
         \end{itemize}
 \end{enumerate}
 \subsection{Розрахунок полички плити на місцевий вигин}
+%% Втавить рисунок
+\begin{itemize}
+    \item $l_{01} = 1 - 0,045 - 0,02 = 0,935\;\textit{м}$
+    \item $l_{02} = 1 - 0,02 - 0,02 = 0,96\;\textit{м}$
+\end{itemize}
+
+Відношення сторін полички плити: 
+
+\begin{itemize}
+    \item $\dfrac{l_{\textit{дл}}}{l_{01}} = \dfrac{298\;\textit{см}}{93,5\;\textit{см}} = 2,97 > 2$
+    \item $\dfrac{l_{\textit{дл}}}{l_{02}} = \dfrac{298\;\textit{см}}{96\;\textit{см}} = 2,89 > 2$
+\end{itemize}
+
+$q_1 = (2,52 - 1,4663) + 1,1 \cdot 25 \cdot 0,03 + 1,456 = 4,56\;\textit{кН/м}^2$
+
+$q = B \cdot q_1 = 1 \cdot 4,56 = 4,56\;\textit{кН/м}$
+
+$M = \dfrac{q \cdot l_{01}^2}{11} = \dfrac{4,56 \cdot 0,935^2}{11} = 0,36\;\textit{кН} \cdot \textit{м}$
+
+\begin{enumerate}
+    \item Визначаємо $\alpha_m$
+        \begin{equation}
+            \alpha_m = \dfrac{M}{f_{cd} \cdot B \cdot d^2}
+        \end{equation}
+        Де $d = 0,5 \cdot h_f = 0,5 \cdot 0,003 = 0,015\;\textit{м}$;
+
+        $B = 1\;\textit{м}$.
+        $$\alpha_m = \dfrac{0,36 \cdot 10^3}{17 \cdot 10^6 \cdot 1 \cdot 0,015^2} = 0,0947 \Longrightarrow 0,091$$
+        Приймаємо $\zeta = 0,952$
+    \item Визначаємо необхідну площу поздовжньої робочої арматури полички\\плити обчислюємо, як в прямокутному перерізі, за формулою:
+        \begin{equation}
+            A_S = \dfrac{M}{f_{yd} \cdot \zeta \cdot d}
+        \end{equation}
+        Де $f_{yd}$ --- розрахунковий опір стрижневої арматури класу $A400$.
+        $$A_S = \dfrac{0,36 \cdot 10^3}{365 \cdot 10^6 \cdot 0,952 \cdot 0,015} = 0,00006906\;\textit{м}^2$$
+
+        Приймаємо $C-1 = \dfrac{\varnothing3A400-200}{\varnothing5A400-300} \qquad 5910 \times 2910$
+\end{enumerate}
 \subsection{Розрахунок втрат попереднього напруження}
+Визначаємо геометричні характеристики розрахункового перерізу:
+\begin{equation}
+    A_{red} = b_f \cdot h_f + b \cdot (h - h_f) + \alpha \cdot A_P + \alpha \cdot A_{S1} + \alpha \cdot A_{S2}
+\end{equation}
+\begin{multline*}
+    A_{red} = 2,96 \cdot 0,03 + 3 \cdot (0,3 - 0,03) + 5,85 \cdot 0,00027 + 5,85 \times \\ \times 0,000135 + 5,85 \cdot 0,000135 = 0,902
+\end{multline*}
+\begin{equation}
+    S_{red} = b_f \cdot h_f \cdot \left(h - \dfrac{h_f}{2}\right) + b \cdot (h - h_f) \cdot \left(h - \dfrac{h_f}{2}\right)
+\end{equation}
+$$S_{red} = 2,96 \cdot 0,03 \cdot \left(0,3 - \dfrac{0,03}{2}\right) + 3 \cdot (0,3 - 0,03) \cdot \left(0,3 - \dfrac{0,03}{2}\right) = 0,256$$
+\begin{equation}
+    y = \dfrac{S_{red} + \alpha \cdot A_P \cdot c_P + \alpha \cdot A_{S1} \cdot c + \alpha \cdot A_{S2} \cdot (h - c_1)}{A_{red}}
+\end{equation}
+\begin{multline*}
+    y = (0,256 + 5,85 \cdot 0,00027 \cdot 0,05 + 5,85 \cdot 0,000135 \cdot 0,02 + \\ + 5,85 \cdot 0,000135 \cdot (0,3 - 0,02))/0,902 = 0,284
+\end{multline*}
+\begin{multline}
+    I_{red} = I + \alpha \cdot A_P \cdot y_P^2 + \alpha \cdot A_{S1} \cdot y_{S1}^2 + \alpha \cdot A_{S2} \cdot y_{S2}^2 = \dfrac{b_f \cdot h_f^3}{12} +\\+ b_f \cdot h_f \cdot \left(h - y - \dfrac{h_f}{2}\right)^2 + \dfrac{b \cdot (h - h_f)^3}{12} + b \cdot (h - h_f) \times \\ \qquad \qquad \times \left(y - \dfrac{h -h_f}{2}\right)^2 + \alpha \cdot A_P \cdot y_P^2 + \alpha \cdot A_{S1} \cdot y_{S1}^2 +\\+ \alpha \cdot A_{S2} \cdot y_{S2}^2
+\end{multline}
+\begin{multline*}
+    I_{red} = \left[\dfrac{2,96 \cdot 0,03^3}{12}\right]/ 10^8 + \left[2,96 \cdot 0,03 \right] / 10^8 \times \\ \times \left[ \left(0,3 - 0,284 - \dfrac{0,03}{2}\right)^2\right] / 10^8 + \\ + \left[\dfrac{0,18 \cdot (0,3 - 0,03)^3}{12}\right]/ 10^8 + \\ + \left[0,18 \cdot (0,3 - 0,03)\right]/10^8 \times \\ \times \left[\left(0,284 - \dfrac{0,3 - 0,03}{2}\right)^2 \right] /10^8 + \\ + \left[5,85 \cdot 0,00027 \cdot 0,234^2\right]/10^8 +\\+ \left[5,85 \cdot 0,000135 \cdot 0,264^2\right] / 10^8 +\\+ \left[5,85 \cdot 0,000135 \cdot 0,28^2\right] / 10^8  = 147271,607\;\textit{см}^4
+\end{multline*}
+
+Де $\alpha = \dfrac{E_S}{E_{cm}} = \dfrac{190000}{32,5 \cdot 10^3} = 5,85$;
+
+$y_P = y - c_P = 0,284 - 0,05 = 0,234$;
+
+$y_{S1} = y - c = 0,284 - 0,02 = 0,264$;
+
+$y_{S2} = h - y - c_1 = 0,3 - 0,02 = 0,27$.
+\begin{equation}
+    W_{red} = \dfrac{I_{red}}{y} = \dfrac{0,147271607}{0,284} = 0,52
+\end{equation}
+\begin{equation}
+    r = \dfrac{W_{red}}{A_{red}} = \dfrac{0,52}{0,902} = 0,57
+\end{equation}
+
+\textbf{Розрахунок втрат І групи попереднього напруження}
+
+\begin{enumerate}
+    \item Визначаємо втрати від короткотривалої релаксації арматури $\Delta P_r$ для арматури класу $A800$ при механічному та електротермічному способі натягу:
+        \begin{itemize}
+            \item При механічному
+                \begin{equation}
+                    \Delta P_r = (0,1 \cdot \sigma_{p,max} - 20) \cdot A_P
+                \end{equation}
+                $$\Delta P_r = (0,1 \cdot 1250 - 20) \cdot 509 = 53455\;\textit{Н} = 53,455\;\textit{кН}$$
+            \item При електротермічному
+                \begin{equation}
+                    \Delta P_r = 0,03 \cdot \sigma_{p,max} \cdot A_P
+                \end{equation}
+                $$\Delta P_r = 0,03 \cdot 1250 \cdot 509 = 19087\;\textit{Н} = 19,087\;\textit{кН}$$
+        \end{itemize}
+    \item Визначаємо втрати від темепературного перепаду:
+        \begin{equation}
+            \Delta P_{\Delta t} = 0,5 \cdot A_P \cdot E_P \cdot \alpha_c \cdot (T_{max} - T_0)
+        \end{equation}
+        $$\Delta P_{\Delta t} = 0,5 \cdot 509 \cdot 190000 \cdot 1 \cdot 10^{-5} \cdot 65 = 0,016\;\textit{Н}$$
+    \item Визначаємо втрати від деформації анкерів, анкерних пристроїв, розташованих в зоні натяжних пристроїв, при натягу на упори:
+        \begin{equation}
+            \Delta P_4 = \dfrac{\Delta l}{l} \cdot E_P \cdot A_P
+        \end{equation}
+        $$\Delta P_4 = \dfrac{1,25 \cdot 0,15 \cdot 18}{6} \cdot 19000 \cdot 509 = 31430\;\textit{Н} = 31,430\;\textit{кН}$$
+\end{enumerate}
 \subsection{Розрахунок плити на утворення тріщин нормальних до поздовжньої осі}
 \subsection{Розрахунок тріщиностійкості плити в стадії виготовлення і транспортування}
 \subsection{Розрахунок плити за деформаціями}
