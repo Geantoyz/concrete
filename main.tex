@@ -1228,8 +1228,48 @@ $y_{S2} = h - y - c_1 = 0,3 - 0,02 = 0,27$.
         $$P_{m,t} = 1140,49\;\textit{Па} < 277914\;\textit{Па}$$
 \end{enumerate}
 \subsection{Розрахунок плити на утворення тріщин нормальних до поздовжньої осі}
+\textbf{Розрахунок моменту тріщиноутворення $M_{w,ult}$ для нормальних перерізів плити в стадії експлуатації}
+\begin{enumerate}
+    \item Визначаємо момент тріщиноутворення:
+        \begin{equation}
+            M_{w,ult} = f_{ctm} \cdot \gamma \cdot W_{red} + P_2 \cdot (e_{op} + r)
+        \end{equation}
+        Де $P_2 = 0,5 \cdot A_{sp}^{\textit{факт}} \cdot \sigma_p - (P_{0m} + \Delta P_{1(t)}) = 0,5 \cdot 5,09 \cdot 600 - (1186,01 + 45,52) =\\= 295,47\;\textit{кПа}$;
+
+        $e_{op} = y_0 - a = 0,115 - 0,04 = 0,111\;\textit{м}$
+        $$M_{w,ult} = 2,6 \cdot 1,3 \cdot 0,543 + 295,47 \cdot (0,111 + 0,115) = 57,97\;\textit{кНм}$$
+    \item Порівняємо $M_{w,ult} \geq M_{max}$
+        \begin{equation*}
+            57,97\;\textit{кНм} \geq 44,58\;\textit{кНм}
+        \end{equation*}
+        Умова виконується, тріщини не виникають і розрахунок розкриття тріщин виконувати не потрібно. 
+\end{enumerate}
 \subsection{Розрахунок тріщиностійкості плити в стадії виготовлення і транспортування}
+\begin{enumerate}
+    \item Обчислюємо момент від власної ваги:
+        \begin{equation}
+            M_1 = \dfrac{g \cdot c^2}{2} = \dfrac{(1,333 \cdot 1,6 \cdot 3) \cdot 0,8^2}{2} = 2,05\;\textit{кНм}
+        \end{equation}
+    \item Перевірити умову тріщиностійкості:
+        \begin{equation}
+            P_1 \cdot (e_{op} - r) - M_{w,ult} \leq f_{ctm} \cdot \gamma \cdot W_{red}
+        \end{equation}
+        Де $P_1 = A_{sp}^{\textit{факт}} \cdot \sigma_p - P_{0m} = (5,09 / 10000) \cdot 600 - 1186,01 = -1185,71\;\textit{Па}$
+        $$-10,545 \cdot (0,111 - 0,115) - 57,97 \leq 2,6 \cdot 1,3 \cdot 0,543$$
+        $$-10,545 \leq 1,83$$
+        Умова виконується, тріщини не виникають і розрахунок розкриття тріщин виконувати не потрібно.
+\end{enumerate}
 \subsection{Розрахунок плити за деформаціями}
+\begin{enumerate}
+    \item Визначаємо прогин плити:
+        \begin{equation}
+            f_{sh,t} = \left(\dfrac{1}{r}\right)_1 \cdot \alpha_k \cdot l_0^2
+        \end{equation}
+        Де $\left(\dfrac{1}{r}\right)_1 = \dfrac{M}{E_{c,eff}} \cdot I_I = \dfrac{1,456 \cdot 10^3}{10833,33 \cdot 10^6} \cdot 0,001378 = 1,85203 \cdot 10^{-7}$;
+
+        $E_{c,eff} = \dfrac{E_{cm}}{1 + \phi(t,t_0)} = \dfrac{32500}{1 + 2} = 10833,33$
+        $$f_{sh,t} = 1,85203 \cdot 10^{-7} \cdot \dfrac{5}{48} \cdot 5,82^2 = 0,001457\;\textit{м}$$
+\end{enumerate}
 
 \newpage
 \section{Проектування кроквяної ферми}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.31)  12 MAY 2020 21:23
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.31)  13 MAY 2020 02:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1593,14 +1593,14 @@ Overfull \hbox (16.85207pt too wide) in paragraph at lines 1225--1227
 \TU/TimesNewRoman(0)/m/n/14.4 Повні сумарні втрати напруження $\OML/cmm/m/it/14.4 P[] \OT1/cmr/m/n/14.4 + ^^A\OML/cmm/m/it/14.4 P[]$ \TU/TimesNewRoman(0)/m/n/14.4 приймати не менше $\OT1/cmr/m/n/14.4 100 []$\TU/TimesNewRoman(0)/m/n/14.4 . 
  []
 
-[36] [37] 
+[36] [37] [38] 
 AED: lastpage setting LastPage
-[38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1239.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1239.
+[39]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1279.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1239.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1239.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1279.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1610,10 +1610,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  47252 strings out of 479805
  1068482 string characters out of 5893180
- 1963503 words of memory out of 5000000
+ 1963502 words of memory out of 5000000
  63609 multiletter control sequences out of 15000+600000
  535858 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,13n,102p,1242b,3806s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (38 pages).
+Output written on main.pdf (39 pages).
