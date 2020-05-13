@@ -1269,11 +1269,35 @@ $y_{S2} = h - y - c_1 = 0,3 - 0,02 = 0,27$.
 
         $E_{c,eff} = \dfrac{E_{cm}}{1 + \phi(t,t_0)} = \dfrac{32500}{1 + 2} = 10833,33$
         $$f_{sh,t} = 1,85203 \cdot 10^{-7} \cdot \dfrac{5}{48} \cdot 5,82^2 = 0,001457\;\textit{м}$$
-\end{enumerate}
+    \item Обчислюємо прогин від постійної та довготривалої діючої частин навантаження на плиту:
+        \begin{equation}
+            f_{lt} = \left(\dfrac{1}{r}\right)_2 \cdot \alpha_k \cdot l_0^2
+        \end{equation}    
+        Де $\left(\dfrac{1}{r}\right)_2 = \dfrac{M}{E_{cm} \cdot I_I} = \dfrac{1,456 \cdot 10^3}{32500 \cdot 0,001378 \cdot 10^{-6}} = 0,0003328$.
+        $$f_{lt} = 0,0003328 \cdot \dfrac{5}{48} \cdot 5,82^2 = 0,001174\;\textit{м}$$
+    \item Обчислюємо вигин від короткочасної дії зусилля попереднього обтиску:
+        \begin{equation}
+            f_{cp} = \dfrac{P_2 \cdot e_{op} \cdot l_0^2}{8 \cdot E_{cm} \cdot I_I}
+        \end{equation}
+        $$f_{cp} = \dfrac{295,46 \cdot 0,075 \cdot 5,82^2}{8 \cdot 32500 \cdot 0,001378 \cdot 10^{-6}} = 2,095 \cdot 10^{-6}\;\textit{м}$$
+    \item Обчислюємо вигин внаслідок повзучості та усадки залізобетонного елементу:
+        \begin{equation}
+            f_{cs} = \alpha_P \cdot \left(\dfrac{1}{r}\right)_4 \cdot l_0^2
+        \end{equation}
+        Де $\left(\dfrac{1}{r}\right)_4 = \dfrac{M - \epsilon_{cs}(t,t_0) \cdot E_S \cdot S_{Is}}{E_{c,eff} \cdot I_I} =\\= \dfrac{1,456 \cdot 10^3 - 0,39 \cdot 190000 \cdot 5,85 \cdot 10^{-5}}{10833,33 \cdot 10^6 \cdot 0,001378 \cdot 10^{-6}} = 0,01855$;
 
+        $S_{Is} = A_{s1} \cdot z_1 + A_{s2} \cdot z_2 = 0,0002545 \cdot 0,115 + 0,0002545 \cdot 0,115 = 5,85 \cdot 10^{-5}$.
+        $$f_{cs} = \dfrac{1}{8} \cdot 0,01855 \cdot 5,82^2 = 0,0785\;\textit{м}$$
+    \item Обчислюємо повне значення прогину:
+        \begin{equation}
+            f = f_{sh,t} + f_{lt} - f_{cp} - f_{cs}
+        \end{equation}
+        $$f = 0,001457 + 0,001174 - 2,095 \cdot 10^{-6} - 0,0785 = -0,075\;\textit{м}$$
+        $$f \leq f_u$$
+        $$-0,075\;\textit{м} \leq 30\;\textit{мм}$$
+        Умова виконується.
+\end{enumerate}
 \newpage
 \section{Проектування кроквяної ферми}
-
-
 
 \end{document} % конец документа
