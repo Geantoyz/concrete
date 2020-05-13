@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.31)  13 MAY 2020 21:43
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.31)  14 MAY 2020 02:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1079,7 +1079,9 @@ Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+)) (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count471
 \mult@box=\box64
@@ -1593,14 +1595,25 @@ Overfull \hbox (16.85207pt too wide) in paragraph at lines 1225--1227
 \TU/TimesNewRoman(0)/m/n/14.4 Повні сумарні втрати напруження $\OML/cmm/m/it/14.4 P[] \OT1/cmr/m/n/14.4 + ^^A\OML/cmm/m/it/14.4 P[]$ \TU/TimesNewRoman(0)/m/n/14.4 приймати не менше $\OT1/cmr/m/n/14.4 100 []$\TU/TimesNewRoman(0)/m/n/14.4 . 
  []
 
-[36] [37] [38] [39] 
+[36] [37] [38] [39] [40] [41]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1344.
+
+
+Overfull \hbox (169.5857pt too wide) in paragraph at lines 1345--1365
+[][] 
+ []
+
+[42
+
+] [43] 
 AED: lastpage setting LastPage
-[40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1303.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1303.
- (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1303.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1303.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1368.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1368.
+(./main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1368.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1368.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1608,12 +1621,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47252 strings out of 479805
- 1068482 string characters out of 5893180
- 1963503 words of memory out of 5000000
- 63609 multiletter control sequences out of 15000+600000
+ 47268 strings out of 479805
+ 1068793 string characters out of 5893180
+ 1968689 words of memory out of 5000000
+ 63622 multiletter control sequences out of 15000+600000
  535858 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,13n,102p,1242b,3806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,17n,102p,1242b,3806s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (40 pages).
+Output written on main.pdf (43 pages).
