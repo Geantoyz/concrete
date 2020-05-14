@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.31)  14 MAY 2020 19:29
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.31)  14 MAY 2020 21:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1383,7 +1383,7 @@ Package csquotes Warning: No style for language 'ukrainian'.
 (csquotes)                Using fallback style on input line 12.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -1396,7 +1396,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 12.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 12.
@@ -1526,14 +1526,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
+ (./main.out) (./main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-(./pythontex-files-main/main.pytxmcr)
+ (./pythontex-files-main/main.pytxmcr)
 Package newfloat Info: New float `listing' with options `fileext=lopytx' on input line 12.
 \c@listing=\count512
 \newfloat@ftype=\count513
@@ -1597,22 +1594,10 @@ Missing character: There is no м in font cmmi12!
  [4]
 File: img/2_3.png Graphic file (type bmp)
 <img/2_3.png>
-
-
-LaTeX Warning: Reference `ris2_3' on page 5 undefined on input line 184.
-
-[5]
+ [5]
 Missing character: There is no Н in font cmmi12!
 Missing character: There is no Н in font cmmi12!
- [6] [7] [8] [9] [10] [11] [12]
-
-LaTeX Warning: Reference `eq:e_0' on page 13 undefined on input line 512.
-
-[13] [14] [15]
-
-LaTeX Warning: Reference `eq:e_0' on page 16 undefined on input line 593.
-
-[16] [17] [18] [19] [20]
+ [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
 Missing character: There is no Р in font cmmi12!
 Missing character: There is no г in font cmmi10!
 Missing character: There is no р in font cmmi10!
@@ -1624,59 +1609,30 @@ Overfull \hbox (16.85207pt too wide) in paragraph at lines 1251--1253
  []
 
 [37] [38] [39] [40] [41] [42] [43] [44] [45]
+Overfull \vbox (0.43858pt too high) has occurred while \output is active []
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1469.
+ [46
 
-
-Overfull \hbox (169.5857pt too wide) in paragraph at lines 1470--1490
-[][] 
- []
-
-[46
-
-] [47]
-
-Package lastpage Warning: Rerun to get the references right on input line 1493.
-
-
+] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1493.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1493.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1495.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1495.
 (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1493.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1493.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E5A47D7DDB6CF7B08B0A5335A462705A;8209.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1495.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1495.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47303 strings out of 479805
- 1069216 string characters out of 5893180
- 1959994 words of memory out of 5000000
- 63650 multiletter control sequences out of 15000+600000
- 535858 words of font info for 68 fonts, out of 8000000 for 9000
+ 47323 strings out of 479805
+ 1069474 string characters out of 5893180
+ 1983370 words of memory out of 5000000
+ 63661 multiletter control sequences out of 15000+600000
+ 536511 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,17n,102p,1242b,3806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,13n,102p,1242b,3806s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (47 pages).
+Output written on main.pdf (46 pages).
