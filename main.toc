@@ -1,0 +1,44 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ukrainian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Компонування поперечної рами будівлі}{2}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Компонування поперечної рами промислової будівлі}{2}{subsection.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Статичний розрахунок поперечної рами}{4}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Проектування колони одноповерхової промислової будівлі}{13}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Розрахунок поздовжньої арматури колони}{13}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Розрахунок розпірки двогілкової колони}{23}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Розрахунок колони із площини поперечної рами}{26}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Проектування позацентрового навантаження фундаменту під колону}{27}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Визначення розмірів фундаменту і армування його плитної частини}{28}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Проектування підколонника фундаменту}{32}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Проектування плити покриття}{35}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Розрахунок міцності поздовжніх ребер плити покриття за нормальними перерізами}{35}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Розрахунок міцності похилих перерізів поздовжніх ребер плити}{38}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Розрахунок полички плити на місцевий вигин}{39}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Розрахунок втрат попереднього напруження}{40}{subsection.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Розрахунок плити на утворення тріщин нормальних до поздовжньої осі}{44}{subsection.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6}Розрахунок тріщиностійкості плити в стадії виготовлення і транспортування}{45}{subsection.5.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7}Розрахунок плити за деформаціями}{45}{subsection.5.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Проектування кроквяної ферми}{47}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{СПИСОК ВИКОРИСТАНОЇ ЛІТЕРАТУРИ}{54}{figure.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ДОДАТОК А}{55}{Item.93}%

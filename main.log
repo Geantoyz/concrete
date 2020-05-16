@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  16 MAY 2020 17:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 2.9.7380 64-bit) (preloaded format=xelatex 2020.4.14)  16 MAY 2020 18:08
 entering extended mode
 **"d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
 ("d:/Институт/Строительный/4 курс/2 семестр/ЖБ/Concrete/main.tex"
@@ -2080,23 +2080,37 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into
 your preamble.
  on input line 12.
 
-(pythontex-files-main/main.pytxpyg)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
-
+(pythontex-files-main/main.pytxpyg) (main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 ("C:\Users\ivano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Overfull \hbox (1.30774pt too wide) in paragraph at lines 34--34
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Розрахунок плити на утворення тріщин 
+нормальних до поздов- 
+ []
 
-]
+
+Overfull \hbox (18.8015pt too wide) in paragraph at lines 36--36
+ [][] [][][]\TU/TimesNewRoman(0)/m/n/14.4 Розрахунок тріщиностійкості плити в с
+тадії виготовлення і транс- 
+ []
+
+)
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+ [1
+
+] [2]
 File: img/1_1.png Graphic file (type bmp)
 <img/1_1.png>
- [2]
+ [3]
 File: img/2_1.png Graphic file (type bmp)
 <img/2_1.png>
 Missing character: There is no с in font cmmi12!
@@ -2106,7 +2120,7 @@ File: img/2_22.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3]
+[4]
 Missing character: There is no м in font cmmi12!
 File: img/2_222.png Graphic file (type bmp)
 <img/2_222.png>
@@ -2115,16 +2129,16 @@ File: img/2_222.png Graphic file (type bmp)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Missing character: There is no м in font cmmi12!
-[4]
+[5]
 File: img/2_3.png Graphic file (type bmp)
 <img/2_3.png>
- [5]
-Missing character: There is no Н in font cmmi12!
-Missing character: There is no Н in font cmmi12!
  [6]
+Missing character: There is no Н in font cmmi12!
+Missing character: There is no Н in font cmmi12!
+ [7]
 File: img/2_4.png Graphic file (type bmp)
 <img/2_4.png>
- [7]
+ [8]
 File: img/2_5.png Graphic file (type bmp)
 <img/2_5.png>
 File: img/2_6.png Graphic file (type bmp)
@@ -2133,46 +2147,46 @@ File: img/2_6.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
+[9]
 File: img/2_7.png Graphic file (type bmp)
 <img/2_7.png>
- [9] [10] [11]
+ [10] [11] [12]
 File: img/3_0.png Graphic file (type bmp)
 <img/3_0.png>
 
-Overfull \hbox (38.53021pt too wide) in paragraph at lines 426--427
+Overfull \hbox (38.53021pt too wide) in paragraph at lines 427--428
  [] 
  []
 
-[12] [13]
-Overfull \hbox (14.0637pt too wide) in paragraph at lines 482--484
+[13] [14]
+Overfull \hbox (14.0637pt too wide) in paragraph at lines 483--485
 \TU/TimesNewRoman(0)/m/n/14.4 Де $\OML/cmm/m/it/14.4 I \OT1/cmr/m/n/14.4 = 2 []
  = 2 [] = 0\OML/cmm/m/it/14.4 ;\OT1/cmr/m/n/14.4 02613 [][]$\TU/TimesNewRoman(0
 )/m/n/14.4 ; 
  []
 
-[14] [15]
+[15] [16]
 File: img/3_1.png Graphic file (type bmp)
 <img/3_1.png>
- [16] [17] [18]
+ [17] [18] [19]
 File: img/3_1.png Graphic file (type bmp)
 <img/3_1.png>
 File: img/3_2.png Graphic file (type bmp)
 <img/3_2.png>
- [19] [20]
+ [20] [21]
 File: img/3_3.png Graphic file (type bmp)
 <img/3_3.png>
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21]
+[22]
 File: img/3_4.png Graphic file (type bmp)
 <img/3_4.png>
- [22] [23]
+ [23] [24]
 File: img/3_5.png Graphic file (type bmp)
 <img/3_5.png>
- [24] [25]
+ [25] [26]
 Missing character: There is no Р in font cmmi12!
 Missing character: There is no г in font cmmi10!
 Missing character: There is no р in font cmmi10!
@@ -2180,57 +2194,53 @@ Missing character: There is no Н in font cmmi12!
 Missing character: There is no і in font cmmi10!
 File: img/4_0.png Graphic file (type bmp)
 <img/4_0.png>
- [26] [27] [28] [29] [30] [31] [32] [33]
+ [27] [28] [29] [30] [31] [32] [33] [34]
 File: img/5_0.png Graphic file (type bmp)
 <img/5_0.png>
- [34] [35]
-[36] [37] [38] [39] [40] [41] [42]
-Overfull \hbox (16.85207pt too wide) in paragraph at lines 1345--1347
+ [35] [36]
+[37] [38] [39] [40] [41] [42] [43]
+Overfull \hbox (16.85207pt too wide) in paragraph at lines 1346--1348
 \TU/TimesNewRoman(0)/m/n/14.4 Повні сумарні втрати напруження $\OML/cmm/m/it/14
 .4 P[] \OT1/cmr/m/n/14.4 + ^^A\OML/cmm/m/it/14.4 P[]$ \TU/TimesNewRoman(0)/m/n/
 14.4 приймати не менше $\OT1/cmr/m/n/14.4 100 []$\TU/TimesNewRoman(0)/m/n/14.4 
 . 
  []
 
-[43] [44] [45]
+[44] [45] [46]
 File: img/6_0.png Graphic file (type bmp)
 <img/6_0.png>
 File: img/6_1.png Graphic file (type bmp)
 <img/6_1.png>
- [46]
+ [47]
 File: img/6_2.png Graphic file (type bmp)
 <img/6_2.png>
- [47]
+ [48]
 File: img/6_3.png Graphic file (type bmp)
 <img/6_3.png>
- [48]
+ [49]
 File: img/6_4.png Graphic file (type bmp)
 <img/6_4.png>
- [49] [50] [51]
+ [50] [51] [52]
 File: img/6_5.png Graphic file (type bmp)
 <img/6_5.png>
- [52]
-Overfull \hbox (11.94662pt too wide) in paragraph at lines 1600--1603
+ [53]
+Overfull \hbox (11.94662pt too wide) in paragraph at lines 1599--1602
 []\TU/TimesNewRoman(0)/m/n/14.4 Конструкції будинків і споруд. Бетонні та заліз
 обетонні конструкції. Основ-
  []
 
-[53]
-Overfull \vbox (0.43858pt too high) has occurred while \output is active []
+[54] [55
 
-
-[54
-
-] 
+] [56] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1644.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1644.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1642.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1642.
 (main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1644.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1644.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1642.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1642.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E5A47D7DDB6CF7B08B0A5335A462705A;8209.
+(rerunfilecheck)             Checksum: E2EFB7F9A0ED3C4EB814F7D7BC1EE97F;8615.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2240,12 +2250,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47466 strings out of 414182
- 1059189 string characters out of 2897157
- 1989334 words of memory out of 3000000
- 64257 multiletter control sequences out of 15000+200000
- 536511 words of font info for 72 fonts, out of 3000000 for 9000
+ 47496 strings out of 414182
+ 1059676 string characters out of 2897157
+ 1989785 words of memory out of 3000000
+ 64274 multiletter control sequences out of 15000+200000
+ 539635 words of font info for 87 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,21n,102p,1241b,3812s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,21n,102p,1241b,3814s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (54 pages).
+Output written on main.pdf (56 pages).
